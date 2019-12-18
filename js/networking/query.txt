@@ -1,0 +1,1 @@
+https://minecraft-api.com/api/query/playeronline.php?ip=54.36.124.83&port=25565

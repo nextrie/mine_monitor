@@ -2,18 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" id="pageCss" href="">
+    <title></title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <div class="navBar">
+      <div class="dashboard_title">
+        <span class="regularText">MINE</span>
+        <span class="coloredText">MONITOR</span>
+      </div>
+    </div>
+    <div class="pageContent">
 
-    <!-- You can also require other files to run in this process -->
+    </div>
+    
     <script src="./renderer.js"></script>
+    <script src="./js/io/verification/number_check.js"></script>
+    <script src="./js/io/show_error.js"></script>
+    <script src="./js/io/write_json_data.js"></script>
+    <script src="./js/page_handling/pageHandler.js"></script>
+    <script src="./js/configLoader.js"></script>
   </body>
 </html>

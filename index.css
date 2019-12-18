@@ -1,0 +1,67 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+input:focus
+{
+    outline: none;
+    box-shadow: 0 0 5px rgb(20, 255, 129);
+}
+
+body
+{
+    background-color: rgb(24, 24, 24);
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.regularText
+{
+    color: white;
+}
+
+.secondaryText
+{
+    color: gray;
+}
+
+.coloredText
+{
+    color: rgb(20, 255, 129);
+}
+
+.pageContent
+{
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* NavBar Section */
+
+.navBar
+{
+    background-color: rgb(18, 18, 18);
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.dashboard_title span
+{
+    font-size: 24px;
+    font-weight: bold;
+}
