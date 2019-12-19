@@ -26,6 +26,8 @@ async function displayServerData(serverData)
     $("#serverIP").text(serverData["ip"]);
     if (serverData["online"] == false)
         $("#serverIP").css("color", "red");
+    else
+        $("#serverIP").css("color", "rgb(20, 255, 129)");
 
     $("#serverMOTD").html(serverData["motd"]["html"]);
     $("#playerCountDisplay").text("Players : " + serverData["players"]["online"] + " / " + serverData["players"]["max"]);
