@@ -37,6 +37,11 @@ a
     color: rgb(20, 255, 129);
 }
 
+.chartColor
+{
+    color: rgb(0, 168, 79);
+}
+
 .pageContent
 {
     padding-top: 60px;
@@ -49,6 +54,7 @@ a
 
 .navBar
 {
+    z-index: 10;
     background-color: rgb(18, 18, 18);
     position: fixed;
     height: 60px;

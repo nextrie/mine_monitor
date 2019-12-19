@@ -5,10 +5,19 @@
             <p class="consoleContent secondaryText"></p>
         </div>
     </div>
-    <div class="serverPlayerCounterChart">
-
+    <div class="panelRowContainer">
+        <div class="basicServerInformationPanel">
+            <canvas class="serverPlayerCounterChart"></canvas>
+        </div>
+        <div class="serverOnlineStatus">
+            <span id="serverIP" class="serverName coloredText"></span>
+            <span id="serverMOTD" class="serverMOTD secondaryText"></span>
+            <hr>
+            <span id="playerCountDisplay" class="secondaryText"></span>
+        </div>
     </div>
+
 </div>
 
 <script src="./js/visual/homeVisual.js"></script>
-<script src="./js/console/console.js"></script>
+<script src="./js/networking/serverData.js"></script>

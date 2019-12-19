@@ -1,11 +1,11 @@
 //this script handles what page is shown on the screen
 function changePage(pageName)
 {
-    $(".pageContent").fadeOut(100, () => {
+    $(".pageContent").fadeOut(500, () => {
         //fading out page content then handling the page change
         $(".pageContent").load(get_pagehtml_path(pageName));
         $("#pageCss").attr("href", get_pagecss_path(pageName));
-        $(".pageContent").fadeIn(100);
+        $(".pageContent").fadeIn(500);
     });
 }
 

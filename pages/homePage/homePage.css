@@ -8,6 +8,12 @@
     align-items: center;
 }
 
+canvas
+{
+    background-color: rgb(20, 20, 20);
+    border-radius: 5px;
+}
+
 .consoledDefault
 {
     color: gray;
@@ -60,5 +66,52 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+}
 
+.panelRowContainer
+{
+    width: 90%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.basicServerInformationPanel
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 600px;
+    width: 70%;
+}
+
+.serverOnlineStatus
+{
+    padding: 10px;
+    border-radius: 5px;
+    width: 25%;
+    height: 40%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serverName
+{
+    padding-top: 30px;
+    font-size: 21px;
+}
+
+.serverMOTD
+{
+    text-align: center;
+}
+
+hr
+{
+    width: 100%;
+    margin: 10px;
 }
