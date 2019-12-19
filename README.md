@@ -6,7 +6,7 @@ A Minecraft server Monitor
 Installation requires node package manager (npm)
 
 ```bash
-git clone https://github.com/nextrie/mine_monitor
+git clone https://github.com/nextrie/mine_monitor && cd mine_monitor
 ```
 ```bash
 npm install
@@ -15,12 +15,10 @@ npm install
 ## Usage
 
 ```bash
-cd mine_monitor
 npm start
 ```
 or
 ```bash
-cd mine_monitor
 electron .
 ```
 
