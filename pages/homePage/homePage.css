@@ -1,0 +1,64 @@
+.homeBody
+{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consoledDefault
+{
+    color: gray;
+}
+
+.consoleLog
+{
+    color: white;
+}
+
+.consoleInformation
+{
+    color: cyan;
+}
+
+.consoleWarn
+{
+    color: rgb(226, 255, 97);
+}
+
+.consoleError
+{
+    color: red;
+}
+
+.serverInformationConsole
+{
+    border-radius: 5px;
+    width: 90%;
+}
+
+.sectionTitle
+{
+    padding-bottom: 5px;
+}
+
+.serverInformationConsole .console
+{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    padding-top: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.consoleContent
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}

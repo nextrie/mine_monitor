@@ -9,4 +9,6 @@ function getInitialPageRender(servers)
         changePage("createServer");
         return;
     }
+
+    changePage("loadingPage");
 }

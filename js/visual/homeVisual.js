@@ -1,0 +1,1 @@
+makeDivHeightDraggable("console", 200, 400);

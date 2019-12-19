@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" id="pageCss" href=""> <!--CSS is dynamically managed by the pageHandler.js file-->
     <title></title>
@@ -17,10 +18,14 @@
     <div class="pageContent"></div> <!--Div containing a dynamic content managed by the configLoader.js file-->
 
     <script src="./renderer.js"></script>
+    <script src="./js/modules/chart.js"></script>
+    <script src="./js/modules/jquery-ui.min.js"></script>
     <script src="./js/io/verification/number_check.js"></script>
     <script src="./js/io/show_error.js"></script>
     <script src="./js/io/write_json_data.js"></script>
     <script src="./js/page_handling/pageHandler.js"></script>
     <script src="./js/configLoader.js"></script>
+    <script src="./js/networking/apiStatus.js"></script>
+    <script src="./js/visual/makeDraggable.js"></script>
   </body>
 </html>
